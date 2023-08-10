@@ -1,0 +1,357 @@
+:root {
+  --color-principal-texto: #212121;
+  --color-segundo-texto: #757575;
+  --color-web: #2196f3;
+  --color-primario-fondo-pantalla: #ffffff;
+  --color-segundo-fondo-pantalla: #2f303a;
+  --secondar-font:'Raleway', 'sans-serfis' ;
+   --bc-color-border: #ECECEC; 
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-principal-texto);
+  font-size: 20px;
+  background-color: var(--color-primario-fondo-pantalla);
+}
+
+.body{
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.portafolio{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0;
+  justify-content: center;
+}
+
+.card{
+ width: 370px;
+}
+
+.img{
+display: block;
+margin: 0;
+padding: 0;
+}
+
+.card-info{
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 1px solid var(--bc-color-border);
+  border-top: none;
+  padding: 20px 24px;
+  flex-shrink: 0;
+}
+
+.div{
+  display: block;
+}
+.footer-2{
+  font-style: normal;
+    background-color: var(--color-segundo-fondo-pantalla);
+    padding: 60px;
+}
+
+.header{
+  padding: 12px;
+  border-bottom: 2px solid var(--bc-color-border);
+}
+
+.container{
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin:auto ;
+ }
+
+.container-header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.navigation{
+  display: flex;
+  align-items: center;
+}
+
+
+.list-titul{
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  padding: 0;
+  margin-left: 30px;
+}
+
+
+.list-item:not(:first-child){
+margin-left: 30px;
+list-style: none;
+text-decoration: none;
+list-style-type: none;
+padding-left: 32px;
+margin: 0;
+}
+
+.list-footer{
+  list-style: none;
+  padding: 0;
+  gap: 32px;
+}
+.main-container{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.container-advantager{
+  width: 270px;
+}
+
+.icon-header{
+  margin-right: 120px;
+  font-family: var(--secondar-font-);
+}
+
+.icon-blue{
+  margin-right: 120px;
+}
+
+
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  border-bottom: 1px solid #ececec;
+  padding: 12px 0;
+}
+.icon-blue {
+  color: var(--color-web);
+}
+.icon-header {
+  font-family: 'Raleway', sans-serif;
+  font-style: 14px;
+  color: #000000;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-align: right;
+}
+.header-ref {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.header-ref:hover,
+.header-ref:focus {
+  color: var(--color-web);
+}
+.color-main,
+.color-site {
+  color: var(--color-web);
+}
+.telf,
+.gmail {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--color-segundo-texto);
+}
+.telf:hover,
+.gmail:focus,
+.telf:focus,
+.gmail:hover {
+  color: var(--color-web);
+}
+
+.hero {
+  height: 600px;
+  background-color: var(--color-segundo-fondo-pantalla);
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.section{
+  padding-top: 94px;
+ padding-bottom: 94px;
+}
+
+.activity{
+  padding-top: 0;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 0;
+  width: 696px;
+}
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display:inline-flex ;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--color-web);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-style: none;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none; 
+  padding: 10px 32px;
+}
+.title-self {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.descr-self {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--color-segundo-texto);
+}
+.title {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: inherit;
+}
+.section-work {
+  background-color: #f5f4fa;
+}
+.title-team {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: inherit;
+}
+.team-name,
+.team-work,
+.product-title,
+.product-descript {
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+.team-names,
+.product-title {
+  font-weight: 500;
+}
+.team-work,
+.product-descript {
+  color: var(--color-segundo-texto);
+}
+.footer {
+  font-style: normal;
+  background-color: var(--color-segundo-fondo-pantalla);
+  padding: 60px;
+  margin: 0;
+  margin-left: 0;
+  margin-right: 0;
+  
+}
+.icon-footer-blue {
+  color: var(--color-web);
+}
+.icon-footer {
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.address,
+.footer-mail,
+.footer-tel {
+  font-family: 'roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-gmail,
+.footer-telf {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-gmail:hover,
+.footer-gmail:focus {
+  color: var(--color-web);
+}
+.footer-telf:hover,
+.footer-telf:focus {
+  color: var(--color-web);
+}
+.filter-btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  border-style: none;
+  cursor: pointer;
+  padding: 6px 24px;
+}
+.hidden-header {
+  visibility: hidden;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: var(--color-web);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.8),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.filter-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
